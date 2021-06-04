@@ -3,14 +3,14 @@ package checker;
 public class Main {
 
 	public static void main(String[] args) {
-		Graph g1 = IOHelper.getGraph("graph-1.txt");
-		Graph h1 = IOHelper.getGraph("graph-2.txt");
+		Graph g1 = IOHelper.getGraph("./src/graph-1.txt");
+		Graph h1 = IOHelper.getGraph("./src/graph-2.txt");
 
-		Graph g2 = IOHelper.getGraph("test1.txt");
-		Graph h2 = IOHelper.getGraph("test2.txt");
+		Graph g2 = IOHelper.getGraph("./src/test1.txt");
+		Graph h2 = IOHelper.getGraph("./src/test2.txt");
 
-		Graph g3 = IOHelper.getGraph("g.txt");
-		Graph h3 = IOHelper.getGraph("h.txt");
+		Graph g3 = IOHelper.getGraph("./src/g.txt");
+		Graph h3 = IOHelper.getGraph("./src/h.txt");
 
 		checking(g1, h1);
 		checking(g2, h2);
