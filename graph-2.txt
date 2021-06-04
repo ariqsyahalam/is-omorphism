@@ -1,0 +1,8 @@
+G2
+u,v,w,x,y
+u-v
+u-w
+u-y
+v-w
+w-x
+x-y

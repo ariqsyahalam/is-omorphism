@@ -1,0 +1,8 @@
+G1
+a,b,c,d,e
+a-c
+a-d
+a-e
+b-c
+b-d
+b-e
